@@ -1,0 +1,131 @@
+
+body {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+header h1 { 
+	padding: 20px;
+	color: brown;
+    font-family: Helvetica, sans-serif;
+    font-size: 42px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/* ── Header ──────────────────────────── */
+header {
+	/*	background-color: rgb(200, 200, 200);*/
+	width: 100%;
+	height: 150px;
+	text-align: center;
+
+	background-image: url('/Users/yar/allAboutCoffee/image-allAboutCoffee/photo-1611330556082-0ba06d2780d0.avif');
+	background-size: cover;
+    background-position: center;
+	background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+
+    /* center content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation */
+nav {
+ 	width: 100%;
+    background-color: rgb(100, 50, 50); 
+    display: flex;
+    justify-content: center;
+	text-align: center;      
+    gap: 5px;
+	flex-wrap: wrap;
+
+}
+
+/* Nav Links */
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    color: silver;
+    padding: 15px 10px;
+    margin: 0px;
+    transition: background-color 0.3s;
+}
+
+/* Mouse Hover */
+nav a.current,
+nav a:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+
+
+
+/* ── FOOTER ────────────────────────────── */
+footer {
+    background-color: rgb(100, 50, 50);   
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    padding: 40px 0px;
+    width: 100%;
+}
+
+/* Social Icons Row */
+.footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 24px;
+    margin: 0 12px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Each icon gets its brand color on hover */
+.footer-social a:hover .fa-facebook  { color: #1877F2; }
+.footer-social a:hover .fa-youtube   { color: #FF0000; }
+.footer-social a:hover .fa-instagram { color: #E1306C; }
+.footer-social a:hover .fa-tiktok    { color: #69C9D0; }
+
+/* Footer Nav Links */
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+    font-size: 14px;
+}
+
+/* Copyright text */
+.footer-copy {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    margin: 0;
+}
